@@ -14,13 +14,21 @@ This dataset contains **modified versions** of pictograms from the **ARASAAC** r
 
 ## Dataset Structure
 dataset_volky/
+
 ├── images/
+
 │ ├── train_limpio/ # 720 training images
+
 │ └── val/ # 179 validation images
+
 ├── labels/
+
 │ ├── train_limpio/ # 720 corresponding label files
+
 │ └── val/ # 179 corresponding label files
+
 ├── classes_v2_mapping.json # Class ID to class name mapping (180 classes)
+
 └── data_nuevo.yaml # YOLO dataset configuration file
 
 
@@ -60,8 +68,11 @@ model.train(data='data_nuevo.yaml', epochs=150, imgsz=960, batch=64)
 
 ## Dataset Configuration (data_nuevo.yaml)
 train: images/train_limpio
+
 val: images/val
+
 nc: 180
+
 names: ['abrigo', 'abuela', ...]  # Full list in classes_v2_mapping.json
 
 ## License
@@ -79,7 +90,7 @@ Under the following terms:
 * **ShareAlike** - If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
 
 ## Acknowledgments
-**Sergio Palao** created the original pictograms for the Government of Aragon (Spain). We thank ARASAAC for making these resources freely available under an open license. This dataset was annotated using CVAT (Computer Vision Annotation Tool).
+**Sergio Palao** created the original pictograms for the Government of Aragon (Spain). We thank [ARASAAC](https://arasaac.org/) for making these resources freely available under an open license. This dataset was annotated using [CVAT](https://www.cvat.ai/)  (Computer Vision Annotation Tool).
 
 ## Contact
 For questions or issues, please open an issue in this repository or contact the corresponding author.
