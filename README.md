@@ -15,20 +15,13 @@ This dataset contains **modified versions** of pictograms from the **ARASAAC** r
 ## Dataset Structure
 dataset_volky/
 
-├── images/
-
-│ ├── train_limpio/ # 720 training images
-
-│ └── val/ # 179 validation images
-
-├── labels/
-
-│ ├── train_limpio/ # 720 corresponding label files
-
-│ └── val/ # 179 corresponding label files
-
-├── classes_v2_mapping.json # Class ID to class name mapping (180 classes)
-
+├── images/ <br />
+│ ├── train_limpio/ # 720 training images <br />
+│ └── val/ # 179 validation images <br />
+├── labels/ <br />
+│ ├── train_limpio/ # 720 corresponding label files <br />
+│ └── val/ # 179 corresponding label files <br />
+├── classes_v2_mapping.json # Class ID to class name mapping (180 classes) <br />
 └── data_nuevo.yaml # YOLO dataset configuration file
 
 
