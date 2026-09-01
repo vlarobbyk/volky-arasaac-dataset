@@ -60,13 +60,12 @@ model.train(data='data_nuevo.yaml', epochs=150, imgsz=960, batch=64)
 ```
 
 ## Dataset Configuration (data_nuevo.yaml)
+```yaml
 train: images/train_limpio
-
 val: images/val
-
 nc: 180
-
 names: ['abrigo', 'abuela', ...]  # Full list in classes_v2_mapping.json
+```
 
 ## License
 This dataset is distributed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license, consistent with the original ARASAAC license.
