@@ -56,7 +56,7 @@ model = YOLO('yolo11s.pt')
 
 # Train using the provided dataset config
 model.train(data='data_nuevo.yaml', epochs=150, imgsz=960, batch=64)
-
+```
 
 ## Dataset Configuration (data_nuevo.yaml)
 train: images/train_limpio
